@@ -6,6 +6,10 @@ project(':core') {
     //Add core specific configuration here
 }
 
+project(":springbootapp"){
+
+}
+
 subprojects {
     //Add common configuration here ( only subprojects , root is not included).
     apply plugin: 'java'

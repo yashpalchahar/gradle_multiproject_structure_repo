@@ -1,2 +1,5 @@
 include 'app'
 include 'core'
+include "springbootapp"
+
+enableFeaturePreview('IMPROVED_POM_SUPPORT')

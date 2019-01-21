@@ -11,9 +11,22 @@ app/.project
 app/.settings
 app/bin
 app/build
+app/out
 
 core/.classpath
 core/.project
 core/.settings
 core/bin
 core/build
+core/out
+
+springbootapp/.classpath
+springbootapp/.project
+springbootapp/.settings
+springbootapp/bin
+springbootapp/build
+springbootapp/out
+
+gradle_multiproject_structure_repo.iml
+
+

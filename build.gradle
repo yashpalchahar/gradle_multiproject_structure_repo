@@ -1,0 +1,20 @@
+project(':app') {
+   //Add app specific configuration here
+}
+ 
+project(':core') {
+    //Add core specific configuration here
+}
+
+subprojects {
+    //Add common configuration here ( only subprojects , root is not included).
+    apply plugin: 'java'
+ 
+    repositories {
+        mavenCentral()
+    }
+}
+
+allprojects {
+    //Add configuration here ( root + subprojects)
+}

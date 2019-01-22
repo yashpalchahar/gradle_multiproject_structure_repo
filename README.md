@@ -23,3 +23,7 @@ from Subproject:
 
 References:
 https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-multi-project-build/
+Properties file: https://dzone.com/articles/specifying-gradle-build
+https://docs.gradle.org/current/userguide/intro_multi_project_builds.html
+
+

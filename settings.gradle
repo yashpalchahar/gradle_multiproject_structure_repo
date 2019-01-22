@@ -1,5 +1,18 @@
-include 'app'
-include 'core'
-include "springbootapp"
+rootProject.name="rootProject"
+rootProject.buildFileName = 'rootMMProject.gradle'
 
-enableFeaturePreview('IMPROVED_POM_SUPPORT')
+include ":app"
+include ":core"
+include ":springbootapp"
+
+/* by default build script file is build.gradle for all projects. */
+/* specify different name instead of build.gradle name for subproject individually */
+project(":app").buildFileName = "app.gradle"
+project(":core").buildFileName = "core.gradle"
+project(":springbootapp").buildFileName = "springbootapp.gradle"
+
+/* this script will rename build.gradle to <subproject_name>.gradle */
+// Add this at the end of settings.gradle
+/*rootProject.children.each { subproject ->
+    subproject.buildFileName = "${subproject.name}.gradle"
+}*/
